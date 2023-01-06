@@ -22,6 +22,8 @@ import {
 import {FormTestComponent} from './components/form-test/form-test.component';
 import {AspectRatioComponent} from "./components/aspect-ratio/aspect-ratio.component";
 import {CmsTypographyComponent} from "./components/cms-typography/cms-typography.component";
+import {CssVariablesComponent} from "./components/css-variables/css-variables.component";
+import {BackdropsComponent} from "./components/backdrops/backdrops.component";
 
 const routes: Route[] = [
     {
@@ -103,6 +105,14 @@ const routes: Route[] = [
   {
     path: 'cms-typography',
     component: CmsTypographyComponent,
+  },
+  {
+    path: 'css-variables',
+    component: CssVariablesComponent,
+  },
+  {
+    path: 'backdrops',
+    component: BackdropsComponent,
   },
 ];
 
