@@ -19,6 +19,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        texture: `url('https://images.unsplash.com/photo-1667775326475-b0166b3fa056?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')`,
+      },
       textColor: {
         skin: {
           base: withOpacity('--color-text-base'),
@@ -76,11 +79,15 @@ module.exports = {
         }],
       },
       fontFamily: {
-        headline: "Poppins, sans-serif"
+        headline: "Poppins, sans-serif",
+        graffity: "Sedgwick Ave, cursive"
       },
       lineClamp: {
         7: '7',
         12: '12'
+      },
+      blur: {
+        px: '1px'
       }
     },
   },

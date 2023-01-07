@@ -24,6 +24,9 @@ import {AspectRatioComponent} from "./components/aspect-ratio/aspect-ratio.compo
 import {CmsTypographyComponent} from "./components/cms-typography/cms-typography.component";
 import {CssVariablesComponent} from "./components/css-variables/css-variables.component";
 import {BackdropsComponent} from "./components/backdrops/backdrops.component";
+import {BackgroundBlandingComponent} from "./components/background-blanding/background-blanding.component";
+import {BoxDecorationBreakComponent} from "./components/box-decoration-break/box-decoration-break.component";
+import {IosDesignComponent} from "./components/ios-design/ios-design.component";
 
 const routes: Route[] = [
     {
@@ -113,6 +116,18 @@ const routes: Route[] = [
   {
     path: 'backdrops',
     component: BackdropsComponent,
+  },
+  {
+    path: 'background-blending',
+    component: BackgroundBlandingComponent,
+  },
+  {
+    path: 'box-decoration-break',
+    component: BoxDecorationBreakComponent,
+  },
+  {
+    path: 'ios-design',
+    component: IosDesignComponent,
   },
 ];
 
