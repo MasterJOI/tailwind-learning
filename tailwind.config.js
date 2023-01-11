@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+const defautTheme = require('tailwindcss/defaultTheme')
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -18,6 +20,10 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    screens: {
+      xs: '540px',
+      ...defautTheme.screens,
+    },
     extend: {
       backgroundImage: {
         texture: `url('https://images.unsplash.com/photo-1667775326475-b0166b3fa056?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')`,
@@ -48,9 +54,21 @@ module.exports = {
       animation: {
         bounce: 'bounce 0.3s infinite',
         spin: 'spin 4s linear infinite',
-        wiggle: 'wiggle 5s infinite'
+        wiggle: 'wiggle 5s infinite',
+        tilt: 'tilt 10s infinite linear'
       },
       keyframes: {
+        tilt: {
+          '0%, 50%, 100%': {
+            transform: 'rotate(0deg)',
+          },
+          '25%': {
+            transform: 'rotate(0.5deg)',
+          },
+          '75%': {
+            transform: 'rotate(-0.5deg)',
+          },
+        },
         wiggle: {
           '0%, 100%': {transform: 'scale(1.2) rotate(45deg)'},
           '25%': {transform: 'rotate(180deg)'},

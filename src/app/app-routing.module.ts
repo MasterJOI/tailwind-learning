@@ -27,6 +27,8 @@ import {BackdropsComponent} from "./components/backdrops/backdrops.component";
 import {BackgroundBlandingComponent} from "./components/background-blanding/background-blanding.component";
 import {BoxDecorationBreakComponent} from "./components/box-decoration-break/box-decoration-break.component";
 import {IosDesignComponent} from "./components/ios-design/ios-design.component";
+import {ResponsiveGridComponent} from "./components/responsive-grid/responsive-grid.component";
+import {GradientEffectsComponent} from "./components/gradient-effects/gradient-effects.component";
 
 const routes: Route[] = [
     {
@@ -128,6 +130,14 @@ const routes: Route[] = [
   {
     path: 'ios-design',
     component: IosDesignComponent,
+  },
+  {
+    path: 'responsive-grid',
+    component: ResponsiveGridComponent,
+  },
+  {
+    path: 'gradient-eefects',
+    component: GradientEffectsComponent,
   },
 ];
 
