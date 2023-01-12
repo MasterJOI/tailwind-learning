@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+   --my-shape: circle(70% at 20% 30%)
+  }
   [type='text'],
   [type='email'],
   [type='url'],

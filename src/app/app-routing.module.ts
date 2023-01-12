@@ -29,6 +29,8 @@ import {BoxDecorationBreakComponent} from "./components/box-decoration-break/box
 import {IosDesignComponent} from "./components/ios-design/ios-design.component";
 import {ResponsiveGridComponent} from "./components/responsive-grid/responsive-grid.component";
 import {GradientEffectsComponent} from "./components/gradient-effects/gradient-effects.component";
+import {YoutubeThumbnailComponent} from "./components/youtube-thumbnail/youtube-thumbnail.component";
+import {Tailwind3FeaturesComponent} from "./components/tailwind3-features/tailwind3-features.component";
 
 const routes: Route[] = [
     {
@@ -136,8 +138,16 @@ const routes: Route[] = [
     component: ResponsiveGridComponent,
   },
   {
-    path: 'gradient-eefects',
+    path: 'gradient-effects',
     component: GradientEffectsComponent,
+  },
+  {
+    path: 'youtube-thumbnail',
+    component: YoutubeThumbnailComponent,
+  },
+  {
+    path: 'tailwind3-features',
+    component: Tailwind3FeaturesComponent,
   },
 ];
 

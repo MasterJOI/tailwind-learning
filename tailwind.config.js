@@ -11,7 +11,6 @@ function withOpacity(variableName) {
 }
 
 module.exports = {
-  mode: 'jit',
   variants: {
     scale: ['focus-within']
   },
@@ -55,7 +54,7 @@ module.exports = {
         bounce: 'bounce 0.3s infinite',
         spin: 'spin 4s linear infinite',
         wiggle: 'wiggle 5s infinite',
-        tilt: 'tilt 10s infinite linear'
+        tilt: 'tilt 5s linear infinite '
       },
       keyframes: {
         tilt: {
@@ -63,7 +62,7 @@ module.exports = {
             transform: 'rotate(0deg)',
           },
           '25%': {
-            transform: 'rotate(0.5deg)',
+            transform: 'rotate(0.5eg)',
           },
           '75%': {
             transform: 'rotate(-0.5deg)',
@@ -112,7 +111,6 @@ module.exports = {
   plugins: [
     require("@tailwindcss/line-clamp"),
     require("@tailwindcss/forms"),
-    require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/typography"),
   ],
 }
