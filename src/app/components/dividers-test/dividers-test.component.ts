@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './dividers-test.component.html',
-  styleUrls: ['./dividers-test.component.css']
+  styleUrls: ['./dividers-test.component.css'],
 })
-export class DividersTestComponent {
-
-}
+export class DividersTestComponent {}

@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './extending-variants.component.html',
-  styleUrls: ['./extending-variants.component.css']
+  styleUrls: ['./extending-variants.component.css'],
 })
-export class ExtendingVariantsComponent {
-
-}
+export class ExtendingVariantsComponent {}

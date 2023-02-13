@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './tailwind3-features.component.html',
-  styleUrls: ['./tailwind3-features.component.css']
+  styleUrls: ['./tailwind3-features.component.css'],
 })
-export class Tailwind3FeaturesComponent {
-
-}
+export class Tailwind3FeaturesComponent {}

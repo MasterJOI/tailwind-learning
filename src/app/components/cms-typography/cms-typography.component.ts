@@ -1,21 +1,20 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MarkdownModule} from "ngx-markdown";
+import { MarkdownModule } from 'ngx-markdown';
 
 @Component({
   selector: 'app-cms-typography',
   standalone: true,
   imports: [CommonModule, MarkdownModule],
   templateUrl: './cms-typography.component.html',
-  styleUrls: ['./cms-typography.component.css']
+  styleUrls: ['./cms-typography.component.css'],
 })
 export class CmsTypographyComponent {
-
-  cms = '<p>What is Lorem Ipsum?\n' +
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen</p>' +
+  cms =
+    '<p>What is Lorem Ipsum?\n' +
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recen</p>" +
     '<h2>Header</h2>' +
     '<code>sem</code>' +
     '<a href="#">hev.hub.cip.gov.ua</a>' +
     '<blockquote>Bla bla</blockquote>';
-
 }

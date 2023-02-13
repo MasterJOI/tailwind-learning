@@ -1,60 +1,58 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {DestinationCardComponent} from './destination-card/destination-card.component';
-import {DestinationDto} from './destination.dto';
+import { DestinationCardComponent } from './destination-card/destination-card.component';
+import { DestinationDto } from './destination.dto';
 
 @Component({
   selector: 'app-extract-reusable-components',
   standalone: true,
-    imports: [CommonModule, DestinationCardComponent],
+  imports: [CommonModule, DestinationCardComponent],
   templateUrl: './extract-reusable-components.component.html',
-  styleUrls: ['./extract-reusable-components.component.css']
+  styleUrls: ['./extract-reusable-components.component.css'],
 })
 export class ExtractReusableComponentsComponent {
-
   data: DestinationDto[] = [
     {
-      city: "Toronto",
+      city: 'Toronto',
       averagePrice: 120,
       propertyCount: 76,
-      imageUrl: "assets/img/toronto.jpg",
-      imageAlt: "Toronto skyline",
+      imageUrl: 'assets/img/toronto.jpg',
+      imageAlt: 'Toronto skyline',
     },
     {
-      city: "Malibu",
+      city: 'Malibu',
       averagePrice: 215,
       propertyCount: 43,
-      imageUrl: "assets/img/malibu.jpg",
-      imageAlt: "Cliff in Malibu",
+      imageUrl: 'assets/img/malibu.jpg',
+      imageAlt: 'Cliff in Malibu',
     },
     {
-      city: "Chicago",
+      city: 'Chicago',
       averagePrice: 130,
       propertyCount: 115,
-      imageUrl: "assets/img/chicago.jpg",
-      imageAlt: "Chicago skyline",
+      imageUrl: 'assets/img/chicago.jpg',
+      imageAlt: 'Chicago skyline',
     },
     {
-      city: "Seattle",
+      city: 'Seattle',
       averagePrice: 135,
       propertyCount: 63,
-      imageUrl: "assets/img/seattle.jpg",
-      imageAlt: "Seattle skyline",
+      imageUrl: 'assets/img/seattle.jpg',
+      imageAlt: 'Seattle skyline',
     },
     {
-      city: "Colorado",
+      city: 'Colorado',
       averagePrice: 85,
       propertyCount: 47,
-      imageUrl: "assets/img/colorado.jpg",
-      imageAlt: "Lake in Colorado",
+      imageUrl: 'assets/img/colorado.jpg',
+      imageAlt: 'Lake in Colorado',
     },
     {
-      city: "Miami",
+      city: 'Miami',
       averagePrice: 115,
       propertyCount: 86,
-      imageUrl: "assets/img/miami.jpg",
-      imageAlt: "Beach in Miami",
+      imageUrl: 'assets/img/miami.jpg',
+      imageAlt: 'Beach in Miami',
     },
   ];
-
 }

@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './ring-utilities.component.html',
-  styleUrls: ['./ring-utilities.component.css']
+  styleUrls: ['./ring-utilities.component.css'],
 })
-export class RingUtilitiesComponent {
-
-}
+export class RingUtilitiesComponent {}

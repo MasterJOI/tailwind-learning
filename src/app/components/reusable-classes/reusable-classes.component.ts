@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './reusable-classes.component.html',
-  styleUrls: ['./reusable-classes.component.css']
+  styleUrls: ['./reusable-classes.component.css'],
 })
-export class ReusableClassesComponent {
-
-}
+export class ReusableClassesComponent {}

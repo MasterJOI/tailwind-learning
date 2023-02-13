@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './ios-design.component.html',
-  styleUrls: ['./ios-design.component.css']
+  styleUrls: ['./ios-design.component.css'],
 })
-export class IosDesignComponent {
-
-}
+export class IosDesignComponent {}

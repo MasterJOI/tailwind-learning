@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './form-test.component.html',
-  styleUrls: ['./form-test.component.css']
+  styleUrls: ['./form-test.component.css'],
 })
-export class FormTestComponent {
-
-}
+export class FormTestComponent {}

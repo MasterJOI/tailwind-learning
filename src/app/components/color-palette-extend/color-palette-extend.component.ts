@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './color-palette-extend.component.html',
-  styleUrls: ['./color-palette-extend.component.css']
+  styleUrls: ['./color-palette-extend.component.css'],
 })
-export class ColorPaletteExtendComponent {
-
-}
+export class ColorPaletteExtendComponent {}

@@ -6,8 +6,8 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './multi-line-truncation.component.html',
-  styleUrls: ['./multi-line-truncation.component.css']
+  styleUrls: ['./multi-line-truncation.component.css'],
 })
 export class MultiLineTruncationComponent {
-
+  a = 'a';
 }

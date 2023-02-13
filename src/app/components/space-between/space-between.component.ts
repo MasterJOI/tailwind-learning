@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './space-between.component.html',
-  styleUrls: ['./space-between.component.css']
+  styleUrls: ['./space-between.component.css'],
 })
-export class SpaceBetweenComponent {
-
-}
+export class SpaceBetweenComponent {}

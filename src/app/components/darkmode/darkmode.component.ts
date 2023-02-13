@@ -1,5 +1,5 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
-import {CommonModule} from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-darkmode',
@@ -7,10 +7,8 @@ import {CommonModule} from '@angular/common';
   imports: [CommonModule],
   templateUrl: './darkmode.component.html',
   styleUrls: ['./darkmode.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class DarkmodeComponent  {
-
+export class DarkmodeComponent {
   isDarkModeOn = false;
-
 }

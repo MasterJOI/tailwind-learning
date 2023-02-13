@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './responsive-grid.component.html',
-  styleUrls: ['./responsive-grid.component.css']
+  styleUrls: ['./responsive-grid.component.css'],
 })
-export class ResponsiveGridComponent {
-
-}
+export class ResponsiveGridComponent {}

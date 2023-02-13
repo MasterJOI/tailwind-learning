@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './grid-test.component.html',
-  styleUrls: ['./grid-test.component.css']
+  styleUrls: ['./grid-test.component.css'],
 })
-export class GridTestComponent {
-
-}
+export class GridTestComponent {}

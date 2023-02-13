@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './css-variables.component.html',
-  styleUrls: ['./css-variables.component.css']
+  styleUrls: ['./css-variables.component.css'],
 })
-export class CssVariablesComponent {
-
-}
+export class CssVariablesComponent {}

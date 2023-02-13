@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './instagram-stories.component.html',
-  styleUrls: ['./instagram-stories.component.css']
+  styleUrls: ['./instagram-stories.component.css'],
 })
-export class InstagramStoriesComponent {
-
-}
+export class InstagramStoriesComponent {}

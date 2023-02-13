@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './aspect-ratio.component.html',
-  styleUrls: ['./aspect-ratio.component.css']
+  styleUrls: ['./aspect-ratio.component.css'],
 })
-export class AspectRatioComponent {
-
-}
+export class AspectRatioComponent {}

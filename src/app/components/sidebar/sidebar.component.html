@@ -1,32 +1,154 @@
-<div class="fixed top-0 left-0 h-screen w-30 m-0 p-2
- grid grid-cols-2 grid-rows-12 gap-x-4 bg-gray-900 text-white shadow bg-primary text-secondary">
-  <app-sidebar-icon iconName="bootstrapFire" tooltipText="Float labels" [routerLink]="['/float-labels']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapPlusLg" tooltipText="Space-between utilities" [routerLink]="['/space-between']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapLightningChargeFill" tooltipText="Reusable classes" [routerLink]="['/reusable-classes']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Transform test" [routerLink]="['/transform-test']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Grid test" [routerLink]="['/grid-test']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Color opacity" [routerLink]="['/color-opacity']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Dividers test" [routerLink]="['/dividers-test']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Transitions" [routerLink]="['/transitions']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Animations test" [routerLink]="['/animations-test']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Gradients" [routerLink]="['/gradients']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Instagram stories" [routerLink]="['/instagram']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Dark mode" [routerLink]="['/dark-mode']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Ring utilities" [routerLink]="['/ring']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Extending variants" [routerLink]="['/extending-variants']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Color palette extend" [routerLink]="['/color-palette-extend']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Multi line truncation" [routerLink]="['/truncation']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Extract reusable components" [routerLink]="['/extract-components']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Form test" [routerLink]="['/form-test']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Aspect Ratio" [routerLink]="['/aspect-ratio']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Cms typography" [routerLink]="['/cms-typography']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Css variables" [routerLink]="['/css-variables']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Backdrops" [routerLink]="['/backdrops']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Background blending" [routerLink]="['/background-blending']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Box decoration break" [routerLink]="['/box-decoration-break']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="IOS design" [routerLink]="['/ios-design']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Responsive grid" [routerLink]="['/responsive-grid']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Gradient effects" [routerLink]="['/gradient-effects']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="Youtube thumbnail" [routerLink]="['/youtube-thumbnail']"></app-sidebar-icon>
-  <app-sidebar-icon iconName="bootstrapOpticalAudioFill" tooltipText="TailwindCSS-3 features" [routerLink]="['/tailwind3-features']"></app-sidebar-icon>
+<div
+  class="w-30 fixed top-0 left-0 m-0 grid h-screen grid-cols-2 grid-rows-12 gap-x-4 bg-gray-900 bg-primary p-2 text-white text-secondary shadow"
+>
+  <app-sidebar-icon
+    iconName="bootstrapFire"
+    tooltipText="Float labels"
+    [routerLink]="['/float-labels']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapPlusLg"
+    tooltipText="Space-between utilities"
+    [routerLink]="['/space-between']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapLightningChargeFill"
+    tooltipText="Reusable classes"
+    [routerLink]="['/reusable-classes']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Transform test"
+    [routerLink]="['/transform-test']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Grid test"
+    [routerLink]="['/grid-test']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Color opacity"
+    [routerLink]="['/color-opacity']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Dividers test"
+    [routerLink]="['/dividers-test']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Transitions"
+    [routerLink]="['/transitions']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Animations test"
+    [routerLink]="['/animations-test']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Gradients"
+    [routerLink]="['/gradients']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Instagram stories"
+    [routerLink]="['/instagram']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Dark mode"
+    [routerLink]="['/dark-mode']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Ring utilities"
+    [routerLink]="['/ring']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Extending variants"
+    [routerLink]="['/extending-variants']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Color palette extend"
+    [routerLink]="['/color-palette-extend']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Multi line truncation"
+    [routerLink]="['/truncation']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Extract reusable components"
+    [routerLink]="['/extract-components']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Form test"
+    [routerLink]="['/form-test']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Aspect Ratio"
+    [routerLink]="['/aspect-ratio']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Cms typography"
+    [routerLink]="['/cms-typography']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Css variables"
+    [routerLink]="['/css-variables']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Backdrops"
+    [routerLink]="['/backdrops']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Background blending"
+    [routerLink]="['/background-blending']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Box decoration break"
+    [routerLink]="['/box-decoration-break']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="IOS design"
+    [routerLink]="['/ios-design']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Responsive grid"
+    [routerLink]="['/responsive-grid']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Gradient effects"
+    [routerLink]="['/gradient-effects']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="Youtube thumbnail"
+    [routerLink]="['/youtube-thumbnail']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="TailwindCSS-3 features"
+    [routerLink]="['/tailwind3-features']"
+  ></app-sidebar-icon>
+  <app-sidebar-icon
+    iconName="bootstrapOpticalAudioFill"
+    tooltipText="typography0.5"
+    [routerLink]="['/typography0.5']"
+  ></app-sidebar-icon>
 </div>

@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './box-decoration-break.component.html',
-  styleUrls: ['./box-decoration-break.component.css']
+  styleUrls: ['./box-decoration-break.component.css'],
 })
-export class BoxDecorationBreakComponent {
-
-}
+export class BoxDecorationBreakComponent {}

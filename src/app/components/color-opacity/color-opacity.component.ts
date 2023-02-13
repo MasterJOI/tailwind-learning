@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './color-opacity.component.html',
-  styleUrls: ['./color-opacity.component.css']
+  styleUrls: ['./color-opacity.component.css'],
 })
-export class ColorOpacityComponent {
-
-}
+export class ColorOpacityComponent {}

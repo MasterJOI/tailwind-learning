@@ -1,14 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss.Config} */
 
 const defautTheme = require('tailwindcss/defaultTheme')
-function withOpacity(variableName) {
-  return ({ opacityValue }) => {
-    if (opacityValue !== undefined) {
-      return `rgba(var(${variableName}), ${opacityValue})`
-    }
-    return `rgb(var(${variableName}))`
-  }
-}
 
 module.exports = {
   variants: {
@@ -25,26 +17,26 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        texture: `url('https://images.unsplash.com/photo-1667775326475-b0166b3fa056?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')`,
+        texture: `url('https://images.unsplash.com/photo-1667775326475-b0166b3fa056?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80`,
       },
       textColor: {
         skin: {
-          base: withOpacity('--color-text-base'),
-          muted: withOpacity('--color-text-muted'),
-          inverted: withOpacity('--color-text-inverted'),
+          base: "rgb(var(--color-text-base) / <alpha-value>)",
+          muted: "rgb(var(--color-text-muted) / <alpha-value>)",
+          inverted: "rgb(var(--color-text-inverted) / <alpha-value>)",
         },
       },
       backgroundColor: {
         skin: {
-          fill: withOpacity('--color-fill'),
-          'button-accent': withOpacity('--color-button-accent'),
-          'button-accent-hover': withOpacity('--color-button-accent-hover'),
-          'button-muted': withOpacity('--color-button-muted'),
+          fill: "rgb(var(--color-fill) / <alpha-value>)",
+          'button-accent': "rgb(var(--color-button-accent) / <alpha-value>)",
+          'button-accent-hover': "rgb(var(--color-button-accent-hover) / <alpha-value>)",
+          'button-muted': "rgb(var(--color-button-muted) / <alpha-value>)",
         },
       },
       gradientColorStops: {
         skin: {
-          hue: withOpacity('--color-fill'),
+          hue: "rgb(var(--color-fill) / <alpha-value>)",
         },
       },
       gridTemplateRows: {
@@ -111,6 +103,6 @@ module.exports = {
   plugins: [
     require("@tailwindcss/line-clamp"),
     require("@tailwindcss/forms"),
-    require("@tailwindcss/typography"),
+    require("@tailwindcss/typography")
   ],
 }

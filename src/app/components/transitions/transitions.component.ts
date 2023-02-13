@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './transitions.component.html',
-  styleUrls: ['./transitions.component.css']
+  styleUrls: ['./transitions.component.css'],
 })
-export class TransitionsComponent {
-
-}
+export class TransitionsComponent {}

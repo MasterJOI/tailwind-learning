@@ -5,8 +5,3 @@ export class DestinationDto {
   imageUrl = '';
   imageAlt = '';
 }
-
-
-
-
-

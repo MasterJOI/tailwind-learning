@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './youtube-thumbnail.component.html',
-  styleUrls: ['./youtube-thumbnail.component.css']
+  styleUrls: ['./youtube-thumbnail.component.css'],
 })
-export class YoutubeThumbnailComponent {
-
-}
+export class YoutubeThumbnailComponent {}
